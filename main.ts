@@ -1,6 +1,5 @@
-radio.onReceivedString(function (receivedString) {
-    basic.showString(receivedString)
-    basic.clearScreen()
+radio.onReceivedNumber(function (receivedNumber) {
+    basic.showNumber(receivedNumber)
 })
 radio.setGroup(10)
 basic.forever(function () {
